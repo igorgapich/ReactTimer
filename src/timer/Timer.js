@@ -77,10 +77,10 @@ const Timer=()=>{
 
                 <div className="buttons">
                     <Stack direction="row" spacing={2}>
-                        <Button color="secondary" onClick={handlePause}>Павза</Button>
                         <Button onClick={handleStart} variant="contained" color="success">
                             Старт
                         </Button>
+                        <Button color="secondary" onClick={handlePause}>Пауза</Button>
                         <Button variant="outlined" color="error" onClick={handleStop}>
                             Стоп
                         </Button>
